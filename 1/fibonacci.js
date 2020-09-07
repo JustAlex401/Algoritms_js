@@ -16,7 +16,7 @@ function fibonacci(num)
             alert(arr[0]);
         }
         let i=2; 
-        while (arr[i-1]<num & (arr[i-1]+arr[i-2])<num)   
+        while (arr[i-1]<num && (arr[i-1]+arr[i-2])<num)   
         { 
             arr.push(arr[i-1]+arr[i-2]);
             i+=1; 
